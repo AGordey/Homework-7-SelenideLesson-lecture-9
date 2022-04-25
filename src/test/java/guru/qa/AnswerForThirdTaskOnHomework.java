@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class AnswerForThirdTaskOnHomework {
 
     @Test
-    void DragDropTest() {
+    void dragAndDropTest() {
 
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#column-a").dragAndDropTo($("#column-b"));
