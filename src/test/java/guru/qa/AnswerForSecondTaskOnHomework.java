@@ -9,7 +9,6 @@ import static com.codeborne.selenide.Selenide.*;
 public class AnswerForSecondTaskOnHomework {
 
     @Test
-
     void gitHubTest() {
         //- Откройте страницу Selenide в Github
         open("https://github.com/selenide/selenide");
